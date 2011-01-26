@@ -7,6 +7,7 @@
 //
 
 #import "HypnosisterAppDelegate.h"
+#import "HypnosisView.h"
 
 @implementation HypnosisterAppDelegate
 
@@ -18,8 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-    
+    CGRect wholeWindow = [window bounds];
+	view = [[HypnosisView alloc] initWithFrame:wholeWindow];
+	[view setBackgroundColor:[UIColor clearColor]];
+	[window addSubview:view];
+	
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -75,6 +79,7 @@
 
 
 - (void)dealloc {
+	[view release];
     [window release];
     [super dealloc];
 }
