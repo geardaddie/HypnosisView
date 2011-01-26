@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HypnosisterAppDelegate.m</string>
+								<string>HypnosisView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,17 +323,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HypnosisterAppDelegate.m</string>
+										<string>HypnosisView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7CCB082F12EFE1C5008C8B60</string>
+										<string>7CCB084212EFE416008C8B60</string>
 										<key>history</key>
 										<array>
-											<string>7CCB082B12EFE1C5008C8B60</string>
-											<string>7CCB082C12EFE1C5008C8B60</string>
 											<string>7CCB082D12EFE1C5008C8B60</string>
-											<string>7CCB082E12EFE1C5008C8B60</string>
+											<string>7CCB083F12EFE416008C8B60</string>
+											<string>7CCB084012EFE416008C8B60</string>
+											<string>7CCB084112EFE416008C8B60</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -531,6 +531,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>7CCB084312EFE416008C8B60</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>7CCB081D12EFD8C0008C8B60</string>
 		<string>/Users/johnshields/Projects/Cocoa/iPhone Programming/Hypnosister/Hypnosister.xcodeproj</string>
@@ -558,7 +559,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>HypnosisView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -575,6 +576,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

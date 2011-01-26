@@ -48,6 +48,29 @@
 		CGContextAddArc(context, center.x, center.y, currentRadius, 0.0, M_PI * 2.0, YES);
 		CGContextStrokePath(context);
 	}
+	
+	// Create a string
+	NSString *text = @"You are getting sleepy.";
+	
+	// Get a font to draw it in
+	UIFont *font = [UIFont boldSystemFontOfSize:28];
+	
+	// Where am I going to draw it?
+	CGRect textRect;
+	textRect.size = [text sizeWithFont:font];
+	textRect.origin.x = center.x - textRect.size.width / 2.0;
+	textRect.origin.y = center.y - textRect.size.height / 2.0;
+	
+	// Set the fill color
+	[[UIColor blackColor] setFill];
+	
+	// Set the shadow
+	CGSize offset = CGSizeMake(4, -3);
+	CGColorRef color = [[UIColor darkGrayColor] CGColor];
+	CGContextSetShadowWithColor(context, offset, 2.0, color);
+	
+	// Draw the string
+	[text drawInRect:textRect withFont:font];
 }
 
 - (void)dealloc {

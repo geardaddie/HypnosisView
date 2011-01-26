@@ -11,7 +11,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 1246}}";
 			sepNavSelRange = "{2617, 0}";
-			sepNavVisRange = "{1692, 973}";
+			sepNavVisRange = "{1692, 978}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Hypnosister */ = {
@@ -64,6 +64,12 @@
 			7CCB082D12EFE1C5008C8B60 /* PBXTextBookmark */ = 7CCB082D12EFE1C5008C8B60 /* PBXTextBookmark */;
 			7CCB082E12EFE1C5008C8B60 /* PBXTextBookmark */ = 7CCB082E12EFE1C5008C8B60 /* PBXTextBookmark */;
 			7CCB082F12EFE1C5008C8B60 /* PBXTextBookmark */ = 7CCB082F12EFE1C5008C8B60 /* PBXTextBookmark */;
+			7CCB083B12EFE414008C8B60 /* XCBuildMessageTextBookmark */ = 7CCB083B12EFE414008C8B60 /* XCBuildMessageTextBookmark */;
+			7CCB083C12EFE414008C8B60 /* PBXTextBookmark */ = 7CCB083C12EFE414008C8B60 /* PBXTextBookmark */;
+			7CCB083F12EFE416008C8B60 /* PBXTextBookmark */ = 7CCB083F12EFE416008C8B60 /* PBXTextBookmark */;
+			7CCB084012EFE416008C8B60 /* PBXTextBookmark */ = 7CCB084012EFE416008C8B60 /* PBXTextBookmark */;
+			7CCB084112EFE416008C8B60 /* XCBuildMessageTextBookmark */ = 7CCB084112EFE416008C8B60 /* XCBuildMessageTextBookmark */;
+			7CCB084212EFE416008C8B60 /* PBXTextBookmark */ = 7CCB084212EFE416008C8B60 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7CCB081F12EFD8C0008C8B60 /* Source Control */;
 		userBuildSettings = {
@@ -120,9 +126,10 @@
 	};
 	7CCB082712EFDC61008C8B60 /* HypnosisView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {904, 826}}";
-			sepNavSelRange = "{1229, 0}";
-			sepNavVisRange = "{238, 1040}";
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1148}}";
+			sepNavSelRange = "{1347, 0}";
+			sepNavVisRange = "{902, 1034}";
+			sepNavWindowFrame = "{{38, 362}, {822, 640}}";
 		};
 	};
 	7CCB082B12EFE1C5008C8B60 /* PBXTextBookmark */ = {
@@ -171,5 +178,63 @@
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 1692;
+	};
+	7CCB083B12EFE414008C8B60 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Nested functions are disabled, use -fnested-functions to re-enable";
+		fRef = 7CCB082712EFDC61008C8B60 /* HypnosisView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	7CCB083C12EFE414008C8B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CCB082712EFDC61008C8B60 /* HypnosisView.m */;
+		name = "HypnosisView.m: 56";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 1198;
+	};
+	7CCB083F12EFE416008C8B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HypnosisterAppDelegate.m */;
+		name = "HypnosisterAppDelegate.m: 82";
+		rLen = 0;
+		rLoc = 2617;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 1692;
+	};
+	7CCB084012EFE416008C8B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CCB082612EFDC61008C8B60 /* HypnosisView.h */;
+		name = "HypnosisView.h: 13";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	7CCB084112EFE416008C8B60 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Nested functions are disabled, use -fnested-functions to re-enable";
+		fRef = 7CCB082712EFDC61008C8B60 /* HypnosisView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	7CCB084212EFE416008C8B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7CCB082712EFDC61008C8B60 /* HypnosisView.m */;
+		name = "HypnosisView.m: 56";
+		rLen = 0;
+		rLoc = 1347;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 902;
 	};
 }
