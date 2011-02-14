@@ -5,3 +5,5 @@
 build/
 
 .xcodeproj/ !*.xcodeproj/project.pbxproj
+/Hypnosister.xcodeproj/project.xcworkspace/
+/Hypnosister.xcodeproj/xcuserdata/
