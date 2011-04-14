@@ -25,7 +25,6 @@
 	// What rectangle am I filling?
 	CGRect bounds = [self bounds];
 	
-	
 	// Where is it's center?
 	CGPoint center;
 	center.x = bounds.origin.x + bounds.size.width / 2.0;
@@ -42,12 +41,27 @@
 	
 	// Set the stroke color to light gray
 	[[UIColor lightGrayColor] setStroke];
+    
+    NSMutableArray *colors = [[NSMutableArray alloc] init];
+    
+    [colors addObject:[UIColor blueColor]];
+    [colors addObject:[UIColor redColor]];
+    [colors addObject:[UIColor greenColor]];
+    [colors addObject:[UIColor grayColor]];
+    [colors addObject:[UIColor yellowColor]];
+    [colors addObject:[UIColor orangeColor]];
+    [colors addObject:[UIColor brownColor]];
 	
-	// Draw Concentric Circles from the outside in
+	int colorIndex = 0;
+    // Draw Concentric Circles from the outside in
 	for (float currentRadius = maxRadius; currentRadius > 0; currentRadius -= 20) {
+        [[colors objectAtIndex:colorIndex++] setStroke];
+        if (colorIndex >= [colors count]) colorIndex = 0;
 		CGContextAddArc(context, center.x, center.y, currentRadius, 0.0, M_PI * 2.0, YES);
 		CGContextStrokePath(context);
 	}
+    
+    [colors release];
 	
 	// Create a string
 	NSString *text = @"You are getting sleepy.";
